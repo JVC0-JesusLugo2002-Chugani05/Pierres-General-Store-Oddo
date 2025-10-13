@@ -1,0 +1,326 @@
+{
+  "products": {
+    "yearRound": [
+      {
+        "name": "Grass Starter",
+        "type": "starter",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Sugar",
+        "type": "ingredient",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Wheat Flour",
+        "type": "ingredient",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Rice",
+        "type": "ingredient",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Oil",
+        "type": "ingredient",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Vinegar",
+        "type": "ingredient",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Basic Fertilizer",
+        "type": "fertilizer",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Quality Fertilizer",
+        "type": "fertilizer",
+        "price": 150,
+        "image": ""
+      },
+      {
+        "name": "Basic Retaining Soil",
+        "type": "soil",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Quality Retaining Soil",
+        "type": "soil",
+        "price": 150,
+        "image": ""
+      },
+      {
+        "name": "Speed-Gro",
+        "type": "fertilizer",
+        "price": 100,
+        "image": ".png"
+      },
+      {
+        "name": "Deluxe Speed-Gro",
+        "type": "fertilizer",
+        "price": 150,
+        "image": ".png"
+      },
+      {
+        "name": "Cherry Sapling",
+        "type": "sapling",
+        "price": 3400,
+        "image": ""
+      },
+      {
+        "name": "Apricot Sapling",
+        "type": "sapling",
+        "price": 2000,
+        "image": ""
+      },
+      {
+        "name": "Orange Sapling",
+        "type": "sapling",
+        "price": 4000,
+        "image": ""
+      },
+      {
+        "name": "Peach Sapling",
+        "type": "sapling",
+        "price": 6000,
+        "image": ""
+      },
+      {
+        "name": "Pomegranate Sapling",
+        "type": "sapling",
+        "price": 6000,
+        "image": ""
+      },
+      {
+        "name": "Apple Sapling",
+        "type": "sapling",
+        "price": 4000,
+        "image": ""
+      }
+    ],
+    "spring": [
+      {
+        "name": "Parsnip Seeds",
+        "type": "seed",
+        "price": 20,
+        "image": ""
+      },
+      {
+        "name": "Bean Starter",
+        "type": "starter",
+        "price": 60,
+        "image": ""
+      },
+      {
+        "name": "Cauliflower Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": ""
+      },
+      {
+        "name": "Potato Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": ""
+      },
+      {
+        "name": "Tulip Bulb",
+        "type": "bulb",
+        "price": 20,
+        "image": ""
+      },
+      {
+        "name": "Kale Seeds",
+        "type": "seed",
+        "price": 70,
+        "image": ""
+      },
+      {
+        "name": "Jazz Seeds",
+        "type": "seed",
+        "price": 30,
+        "image": ""
+      },
+      {
+        "name": "Garlic Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": ""
+      },
+      {
+        "name": "Rice Shoot",
+        "type": "seed",
+        "price": 40,
+        "image": ""
+      }
+    ],
+    "summer": [
+      {
+        "name": "Melon Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": ""
+      },
+      {
+        "name": "Tomato Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": ""
+      },
+      {
+        "name": "Blueberry Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": ""
+      },
+      {
+        "name": "Pepper Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": ""
+      },
+      {
+        "name": "Wheat Seeds",
+        "type": "seed",
+        "price": 10,
+        "image": ""
+      },
+      {
+        "name": "Radish Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": ""
+      },
+      {
+        "name": "Poppy Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Spangle Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": ""
+      },
+      {
+        "name": "Hops Starter",
+        "type": "starter",
+        "price": 60,
+        "image": ""
+      },
+      {
+        "name": "Corn Seeds",
+        "type": "seed",
+        "price": 150,
+        "image": ""
+      },
+      {
+        "name": "Sunflower Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Red Cabbage Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": ""
+      }
+    ],
+    "fall": [
+      {
+        "name": "Eggplant Seeds",
+        "type": "seed",
+        "price": 20,
+        "image": ""
+      },
+      {
+        "name": "Corn Seeds",
+        "type": "seed",
+        "price": 150,
+        "image": ""
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": ""
+      },
+      {
+        "name": "Bok Choy Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": ""
+      },
+      {
+        "name": "Yam Seeds",
+        "type": "seed",
+        "price": 60,
+        "image": ""
+      },
+      {
+        "name": "Cranberry Seeds",
+        "type": "seed",
+        "price": 240,
+        "image": ""
+      },
+      {
+        "name": "Sunflower Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Fairy Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": ""
+      },
+      {
+        "name": "Amaranth Seeds",
+        "type": "seed",
+        "price": 70,
+        "image": ""
+      },
+      {
+        "name": "Grape Starter",
+        "type": "starter",
+        "price": 60,
+        "image": ""
+      },
+      {
+        "name": "Wheat Seeds",
+        "type": "seed",
+        "price": 10,
+        "image": ""
+      },
+      {
+        "name": "Artichoke Seeds",
+        "type": "seed",
+        "price": 30,
+        "image": ""
+      }
+    ],
+    "winter": [
+      {
+        "name": "none",
+        "type": "none",
+        "price": 0,
+        "image": ""
+      }
+    ]
+  }
+}
