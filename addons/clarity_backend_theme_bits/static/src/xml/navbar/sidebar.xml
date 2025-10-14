@@ -1,0 +1,132 @@
+<templates id="template" xml:space="preserve">
+	
+	<t t-inherit="web.NavBar.AppsMenu" t-inherit-mode="extension" owl="1">
+		<xpath expr="//Dropdown" position="replace">  
+			<nav role="navigation" class="primary-nav menu o_main_navbar" data-command-category="disabled">  
+				<div class="overflow-container">  
+					<t t-set="curr_app" t-value="currentMenuId? menuService.getMenuAsTree(currentMenuId): null"/>
+					<ul id="menu-dropdown">
+						<t t-foreach="menuService.getApps()" t-as="main_menu" t-key="main_menu.name"> 
+							<t t-if="!main_menu.children.length">
+								<li>
+									<a t-attf-href="#menu_id={{main_menu.id}}&amp;action={{main_menu.actionID ? main_menu.actionID : ''}}"
+										t-att-data-menu="main_menu.id"
+										t-attf-data-action-model="{{main_menu.actionModel ? main_menu.actionModel : ''}}"
+										t-attf-data-action-id="{{main_menu.actionID ? main_menu.actionID : ''}}"
+										t-att-data-menu-xmlid="main_menu.xmlid" t-attf-class="main_link"> 
+										<span class="app_icon me-2"></span>
+										<span>
+											<t t-esc="main_menu.name" />
+										</span> 
+									</a>
+								</li>
+							</t>
+							<t t-else="">
+								<li class="menu-hasdropdown">
+									<a t-attf-href="#menu_id={{main_menu.id}}&amp;action={{main_menu.actionID ? main_menu.actionID : ''}}" t-att-data-menu="main_menu.id"
+										t-attf-data-action-model="{{main_menu.actionModel ? main_menu.actionModel : ''}}"
+										t-attf-data-action-id="{{main_menu.actionID ? main_menu.actionID : ''}}"
+										t-att-data-menu-xmlid="main_menu.xmlid" t-attf-class="main_link dropdown-btn"
+										t-attf-data-bs-target="#child_menu_{{main_menu.id}}" 
+										data-bs-toggle="collapse"> 
+										<span class="app_icon me-2"></span>
+										<span>
+											<t t-esc="main_menu.name" />
+										</span>       
+										<span class="oi oi-chevron-right ms-auto p-2" />
+									</a>  
+									<ul t-attf-class="main header-sub-menus sub-menu-dropdown collapse #{curr_app &amp;&amp; curr_app.appID == main_menu.appID ?'show':''}" t-attf-id="child_menu_{{main_menu.id}}">  
+										<a class="back_main_menu collapse_back d-flex align-items-center" t-on-click="BackMenuToggle">
+											<span class="oi oi-chevron-left p-2" />
+											<h3 class="m-0 p-o">
+												<b>
+													<t t-esc="main_menu.name" />
+												</b>
+											</h3> 
+										</a>
+										<t t-set="parent_menu_id" t-value="main_menu.id" />
+										<t t-foreach="main_menu.children" t-as="menuid" t-key="menuid">
+											<t t-set="menu" t-value="menuService.getMenuAsTree(menuid)"/>
+											<t t-call="AllmenuRecursive"> 
+											</t>
+										</t>
+										<t t-if="main_menu.xmlid == 'base.menu_administration'">
+											<li>
+												<a class="d-flex align-items-center w-100 sub-main-menu" data-bs-toggle="collapse" t-attf-data-bs-target="#child_menu_theme">
+													<span>Backend Theme</span>
+													<span class="oi oi-chevron-right ms-auto p-2" />
+												</a>
+												<div t-attf-id="child_menu_theme" class="collapse">
+													<ul class="header-sub-menus">
+														<li class="nav-item">
+															<a class="child_menus" href="https://www.terabits.xyz/survey/start/0261438c-36bd-4f73-a63d-9120a4d4764d" target="_blank">
+																<span>Leave a review</span>
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="child_menus" href="https://www.terabits.xyz/survey/start/9e8fe56d-b8b4-4c34-b3b6-513b08ab513e">
+																<span>Get regular updates</span>
+															</a>
+														</li>
+														<li class="nav-item">
+															<a class="child_menus" href="https://www.terabits.xyz/services/debranding">
+																<span>Debrand your ERP</span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</t>
+									</ul>
+								</li>
+							</t>
+						</t>
+					</ul> 
+				</div> 
+			</nav> 
+		</xpath>
+	</t> 
+	<t t-inherit="web.NavBar" t-inherit-mode="extension" owl="1">
+		<xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
+		</xpath>
+		<xpath expr="//t[@t-call='web.NavBar.SectionsMenu']" position="replace"></xpath>
+		<xpath expr="//DropdownItem" position="after">
+			<div class="sidebar-toggler d-flex align-items-center">
+				<a href="javascript:;" class="sidebar-toggle-bits ms-1" t-on-click="toggleSidebar">
+					<i class="toggle fa fa-bars fa-2x"/> 
+					<i class="back-arrow oi oi-chevron-left fa-2x"/> 
+				</a>
+				<t t-if="currentApp">
+					<h4 class="ms-2 mb-0"><t t-esc="currentApp.name"/></h4> 
+				</t>
+			</div>
+		</xpath> 
+		<xpath expr="//DropdownItem" position="replace"/>
+	</t>
+	<t t-name="AllmenuRecursive" owl="1">
+		<li class="nav-item">
+			<t t-if="menu.childrenTree.length"> 
+				<a class="d-flex align-items-center w-100 sub-main-menu" data-bs-toggle="collapse" t-attf-data-bs-target="#child_menu_{{menu.id}}" t-att-data-menu-xmlid="menu.xmlid">
+					<span><t t-esc="menu.name"/></span>
+					<span class="oi oi-chevron-right ms-auto p-2" />
+				</a>
+				<div t-attf-id="child_menu_{{menu.id}}" class="collapse">
+					<ul class="header-sub-menus">
+						<t t-foreach="menu.children" t-as="menuid" t-key="menuid">
+							<t t-set="menu" t-value="menuService.getMenuAsTree(menuid)"/> 
+							<t t-call="AllmenuRecursive" />
+						</t>
+					</ul>
+				</div>
+			</t>
+			<t t-else="">
+				<a t-att-data-menu="menu.id" t-attf-class="child_menus" t-attf-href="#menu_id={{menu.id}}&amp;action={{menu.actionID ? menu.actionID : ''}}" t-att-data-menu-xmlid="menu.xmlid" t-attf-data-action-id="{{menu.actionID ? menu.actionID : ''}}">
+					<span class="app_name">
+						<t t-esc="menu.name" />
+					</span>
+				</a>
+			</t> 
+		</li>
+	</t>
+</templates>
+ 
