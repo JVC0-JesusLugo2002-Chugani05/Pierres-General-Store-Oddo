@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "name": "Egg Festival",
+      "season": "Spring",
+      "day": 13,
+      "image": "../imgs/events/EggFestival.png"
+    },
+    {
+      "name": "Flower Dance",
+      "season": "Spring",
+      "day": 24,
+      "image": "../imgs/events/FlowerFestival.png"
+    },
+    {
+      "name": "Luau",
+      "season": "Summer",
+      "day": 11,
+      "image": "../imgs/events/Luau.png"
+    },
+    {
+      "name": "Desert Festival",
+      "season": "Summer",
+      "day": 28,
+      "image": "../imgs/events/DesertFestival.png"
+    },
+    {
+      "name": "Stardew Valley Fair",
+      "season": "Fall",
+      "day": 16,
+      "image": "../imgs/events/StardewValleyFair.png"
+    },
+    {
+      "name": "Spirit's Eve",
+      "season": "Fall",
+      "day": 27,
+      "image": "../imgs/events/SpiritsEve.png"
+    },
+    {
+      "name": "Feast of the Winter Star",
+      "season": "Winter",
+      "day": 25,
+      "image": "../imgs/events/FeastOfTheWinterstarSecretSanta.png"
+    },
+    {
+      "name": "Festival of Ice",
+      "season": "Winter",
+      "day": 8,
+      "image": "../imgs/events/FestivalOfIce.png"
+    },
+    {
+      "name": "Night Market",
+      "season": "Winter",
+      "day": "15–17",
+      "image": "../imgs/events/NightMarket.png"
+    }
+  ]
+}
