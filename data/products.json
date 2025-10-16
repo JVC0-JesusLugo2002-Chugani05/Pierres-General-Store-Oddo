@@ -35,49 +35,49 @@
         "name": "Vinegar",
         "type": "ingredient",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/year-round/Vinegar.png"
       },
       {
         "name": "Basic Fertilizer",
         "type": "fertilizer",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/year-round/BasicFertilizer.png"
       },
       {
         "name": "Quality Fertilizer",
         "type": "fertilizer",
         "price": 150,
-        "image": ""
+        "image": "../imgs/products/year-round/QualityFertilizer.png"
       },
       {
         "name": "Basic Retaining Soil",
         "type": "soil",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/year-round/BasicRetainingSoil.png"
       },
       {
         "name": "Quality Retaining Soil",
         "type": "soil",
         "price": 150,
-        "image": ""
+        "image": "../imgs/products/year-round/QualityRetainingSoil.png"
       },
       {
         "name": "Speed-Gro",
         "type": "fertilizer",
         "price": 100,
-        "image": ".png"
+        "image": "../imgs/products/year-round/SpeedGro.png"
       },
       {
         "name": "Deluxe Speed-Gro",
         "type": "fertilizer",
         "price": 150,
-        "image": ".png"
+        "image": "../imgs/products/year-round/DeluxeSpeedGro.png"
       },
       {
         "name": "Cherry Sapling",
         "type": "sapling",
         "price": 3400,
-        "image": ""
+        "image": "../imgs/products/year-round/CherrySapling.png"
       },
       {
         "name": "Apricot Sapling",
