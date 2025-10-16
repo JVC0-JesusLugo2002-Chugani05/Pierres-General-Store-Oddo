@@ -1,0 +1,24 @@
+{
+  "providers": [
+    {
+      "name": "Marnie",
+      "birthday": { "day": 18, "season": "Fall" },
+      "image": "../imgs/customers/Marnie.png"
+    },
+    {
+      "name": "Andy",
+      "birthday": { "day": 23, "season": "Spring" },
+      "image": "../imgs/customers/Andy.png"
+    },
+    {
+      "name": "Sofia",
+      "birthday": { "day": 27, "season": "Winter" },
+      "image": "../imgs/customers/Sofia.png"
+    },
+    {
+    "name": "Susan",
+    "birthday": { "day": 28, "season": "Fall" },
+    "image": "../imgs/customers/Susan.png"  
+    }
+]
+}

@@ -5,31 +5,31 @@
         "name": "Grass Starter",
         "type": "starter",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/year-round/GrassStarter.png"
       },
       {
         "name": "Sugar",
         "type": "ingredient",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/year-round/Sugar.png"
       },
       {
         "name": "Wheat Flour",
         "type": "ingredient",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/year-round/WheatFlour.png"
       },
       {
         "name": "Rice",
         "type": "ingredient",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/year-round/Rice.png"
       },
       {
         "name": "Oil",
         "type": "ingredient",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/year-round/Oil.png"
       },
       {
         "name": "Vinegar",
