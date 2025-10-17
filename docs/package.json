@@ -16,8 +16,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "n": "^10.2.0",
     "npm": "^11.6.2",
+    "rust-just": "^1.38.0",
     "vue": "^3.5.22"
   },
   "devDependencies": {

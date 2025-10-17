@@ -1,11 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Hero from './Components/Hero.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+    <Hero/>
+  </header>
+  <main class="container">
+  </main>
+  <footer>
+
+  </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+body {
+  border: 0;
+  padding: 0;
+}
+</style>
