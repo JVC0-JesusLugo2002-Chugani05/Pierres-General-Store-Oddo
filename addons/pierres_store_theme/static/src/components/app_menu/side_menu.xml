@@ -51,7 +51,7 @@
         </xpath>
     </t>
     <!--  Search results  -->
-    <t t-name="hue_backend_theme.SearchResults">
+    <t t-name="pierres_store_theme.SearchResults">
         <t t-foreach="results" t-as="result">
             <div class="search_icons">
             <a t-attf-class="o-menu-search-result dropdown-item col-12 ml-auto mr-auto #{result_first ? 'active' : ''}"
