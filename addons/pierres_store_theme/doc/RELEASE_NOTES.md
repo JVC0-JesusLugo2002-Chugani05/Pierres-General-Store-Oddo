@@ -1,4 +1,4 @@
-## Module <hue_backend_theme>
+## Module <pierres_store_theme>
 
 #### 05.12.2023
 
