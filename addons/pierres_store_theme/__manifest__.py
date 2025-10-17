@@ -2,6 +2,7 @@
     "name": "Pierre's Store Theme",
     "version": "17.0.1.0.0",
     "category": "Themes/Backend",
+    "summary": "Stardew Valley backend theme made with love for SSG homework",
     "description": """Fork of Hue Backend Theme, by Cybrosys Techno Solutions,
     made with love for SSG homework of Multiplatform App Development formation""",
     "author": "JesusLugo2002",
@@ -23,10 +24,6 @@
             "pierres_store_theme/static/src/layout/style/login.scss",
         ],
     },
-    "images": [
-        "static/description/banner.png",
-        "static/description/theme_screenshot.png",
-    ],
     "license": "LGPL-3",
     "installable": True,
     "auto_install": False,
