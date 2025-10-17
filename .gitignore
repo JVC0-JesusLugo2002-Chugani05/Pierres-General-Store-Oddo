@@ -1,3 +1,4 @@
 .env
 database/
 odoo/
+__pycache__
