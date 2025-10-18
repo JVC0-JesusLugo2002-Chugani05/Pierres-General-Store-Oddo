@@ -1,7 +1,7 @@
 <template>
   <ul class="list-group list-group-flush text-white fw-bold">
-    <a href="" class="list-group-item list-group-item-action">La tienda de Pierre</a>
-    <a href="" class="list-group-item list-group-item-action">Odoo como ERP elegido</a>
+    <a href="#AboutSection" class="list-group-item list-group-item-action">La tienda de Pierre</a>
+    <a href="#ERPSection" class="list-group-item list-group-item-action">Odoo como ERP elegido</a>
     <a href="" class="list-group-item list-group-item-action">Módulos utilizados</a>
     <a href="" class="list-group-item list-group-item-action">Problemas resueltos</a>
     <a href="" class="list-group-item list-group-item-action">Autores</a>
@@ -11,7 +11,7 @@
 <style scoped>
 .list-group-item {
   background-color: transparent;
-  font-family: "Stardew Valley";
+  font-family: 'Stardew Valley';
   font-size: 24px;
   letter-spacing: 1px;
 }

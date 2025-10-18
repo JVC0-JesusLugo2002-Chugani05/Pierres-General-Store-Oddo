@@ -28,7 +28,7 @@ import ContentsList from './ContentsList.vue'
   margin-top: 10vh;
 }
 .title {
-  font-family: "Stardew Valley Title";
+  font-family: 'Stardew Valley Title';
   font-size: 80px;
 }
 </style>
