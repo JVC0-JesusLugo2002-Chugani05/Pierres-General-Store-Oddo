@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Hero from './Components/Header/Hero.vue';
 import Title from './Components/Main/Title.vue';
+
+import AboutSection from './Components/Main/AboutSection.vue';
+import ERPSection from './Components/Main/ERPSection.vue';
 </script>
 
 <template>
@@ -9,8 +12,8 @@ import Title from './Components/Main/Title.vue';
   </header>
   <main class="container-fluid">
     <div class="container">
-      <Title url="/img/la-tienda-de-pierre.png"/>
-      <Title url="/img/erp-elegido.png"/>
+      <AboutSection/>
+      <ERPSection/>
       <Title url="/img/modulos-utilizados.png"/>
       <Title url="/img/problemas-resueltos.png"/>
       <Title url="/img/autores.png"/>

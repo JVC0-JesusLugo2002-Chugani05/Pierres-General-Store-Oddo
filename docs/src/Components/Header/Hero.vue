@@ -22,6 +22,7 @@ import ContentsList from './ContentsList.vue'
   height: 100vh;
   background-image: url('/img/hero.jpg');
   background-position-y: bottom;
+  background-position-x: center;
 }
 .container {
   margin-top: 10vh;
