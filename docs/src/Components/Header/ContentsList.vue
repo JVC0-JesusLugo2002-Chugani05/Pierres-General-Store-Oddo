@@ -9,7 +9,10 @@
 </template>
 
 <style scoped>
-.list-group {
+.list-group-item {
   background-color: transparent;
+  font-family: "Stardew Valley";
+  font-size: 24px;
+  letter-spacing: 1px;
 }
 </style>

@@ -1,21 +1,42 @@
 <script setup lang="ts">
 import Hero from './Components/Header/Hero.vue';
+import Title from './Components/Main/Title.vue';
 </script>
 
 <template>
   <header>
     <Hero/>
   </header>
-  <main class="container">
+  <main class="container-fluid">
+    <div class="container">
+      <Title url="/img/la-tienda-de-pierre.png"/>
+      <Title url="/img/erp-elegido.png"/>
+      <Title url="/img/modulos-utilizados.png"/>
+      <Title url="/img/problemas-resueltos.png"/>
+      <Title url="/img/autores.png"/>
+    </div>
   </main>
   <footer>
 
   </footer>
 </template>
 
-<style scoped>
+<style>
 body {
   border: 0;
   padding: 0;
+}
+main {
+  background-color: #f4d26c;
+}
+@font-face {  
+  font-family: "Stardew Valley Title";
+  src: local("Stardew Valley Title"),
+  url("./assets/fonts/Stardew-Valley-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Stardew Valley";
+  src: local("Stardew Valley"),
+  url("./assets/fonts/StardewValley.ttf") format("truetype");
 }
 </style>

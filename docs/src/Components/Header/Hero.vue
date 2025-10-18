@@ -3,11 +3,11 @@ import ContentsList from './ContentsList.vue'
 </script>
 
 <template>
-  <div class="hero container-fluid text-white d-flex flex-column justify-content-center">
+  <div class="hero container-fluid text-white d-flex flex-column">
     <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="display-1">Pierre's General Shop Odoo</h1>
+          <h1 class="display-1">Pierre's General Store Odoo</h1>
         </div>
         <div class="col">
           <ContentsList />
@@ -19,8 +19,15 @@ import ContentsList from './ContentsList.vue'
 
 <style scoped>
 .hero {
-  height: 50vh;
-  background-image: url('/img/hero.png');
-  background-position-y: center;
+  height: 100vh;
+  background-image: url('/img/hero.jpg');
+  background-position-y: bottom;
+}
+.container {
+  margin-top: 10vh;
+}
+.title {
+  font-family: "Stardew Valley Title";
+  font-size: 80px;
 }
 </style>
