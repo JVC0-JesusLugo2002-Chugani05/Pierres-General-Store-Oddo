@@ -171,73 +171,73 @@
         "name": "Melon Seeds",
         "type": "seed",
         "price": 80,
-        "image": ""
+        "image": "../imgs/products/summer/MelonSeeds.png"
       },
       {
         "name": "Tomato Seeds",
         "type": "seed",
         "price": 50,
-        "image": ""
+        "image": "../imgs/products/summer/TomatoSeeds.png"
       },
       {
         "name": "Blueberry Seeds",
         "type": "seed",
         "price": 80,
-        "image": ""
+        "image": "../imgs/products/summer/BlueberrySeeds.png"
       },
       {
         "name": "Pepper Seeds",
         "type": "seed",
         "price": 40,
-        "image": ""
+        "image": "../imgs/products/summer/PepperSeeds.png"
       },
       {
         "name": "Wheat Seeds",
         "type": "seed",
         "price": 10,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/WheatSeeds.png"
       },
       {
         "name": "Radish Seeds",
         "type": "seed",
         "price": 40,
-        "image": ""
+        "image": "../imgs/products/summer/RadishSeeds.png"
       },
       {
         "name": "Poppy Seeds",
         "type": "seed",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/summer/PoppySeeds.png"
       },
       {
         "name": "Spangle Seeds",
         "type": "seed",
         "price": 50,
-        "image": ""
+        "image": "../imgs/products/summer/SpangleSeeds.png"
       },
       {
         "name": "Hops Starter",
         "type": "starter",
         "price": 60,
-        "image": ""
+        "image": "../imgs/products/summer/HopsStarter.png"
       },
       {
         "name": "Corn Seeds",
         "type": "seed",
         "price": 150,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/CornSeeds.png"
       },
       {
         "name": "Sunflower Seeds",
         "type": "seed",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/SunflowerSeeds.png"
       },
       {
         "name": "Red Cabbage Seeds",
         "type": "seed",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/summer/RedCabbageSeeds.png"
       }
     ],
     "fall": [
@@ -245,79 +245,79 @@
         "name": "Eggplant Seeds",
         "type": "seed",
         "price": 20,
-        "image": ""
+        "image": "../imgs/products/fall/EggplantSeeds.png"
       },
       {
         "name": "Corn Seeds",
         "type": "seed",
         "price": 150,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/CornSeeds.png"
       },
       {
         "name": "Pumpkin Seeds",
         "type": "seed",
         "price": 100,
-        "image": ""
+        "image": "../imgs/products/fall/PumpkinSeeds.png"
       },
       {
         "name": "Bok Choy Seeds",
         "type": "seed",
         "price": 50,
-        "image": ""
+        "image": "../imgs/products/fall/BokChoySeeds.png"
       },
       {
         "name": "Yam Seeds",
         "type": "seed",
         "price": 60,
-        "image": ""
+        "image": "../imgs/products/fall/YamSeeds.png"
       },
       {
         "name": "Cranberry Seeds",
         "type": "seed",
         "price": 240,
-        "image": ""
+        "image": "../imgs/products/fall/CranberrySeeds.png"
       },
       {
         "name": "Sunflower Seeds",
         "type": "seed",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/SunflowerSeeds.png"
       },
       {
         "name": "Fairy Seeds",
         "type": "seed",
         "price": 200,
-        "image": ""
+        "image": "../imgs/products/fall/FairySeeds.png"
       },
       {
         "name": "Amaranth Seeds",
         "type": "seed",
         "price": 70,
-        "image": ""
+        "image": "../imgs/products/fall/AmaranthSeeds.png"
       },
       {
         "name": "Grape Starter",
         "type": "starter",
         "price": 60,
-        "image": ""
+        "image": "../imgs/products/fall/GrapeStarter.png"
       },
       {
         "name": "Wheat Seeds",
         "type": "seed",
         "price": 10,
-        "image": ""
+        "image": "../imgs/products/summer-and-fall/WheatSeeds.png"
       },
       {
         "name": "Artichoke Seeds",
         "type": "seed",
         "price": 30,
-        "image": ""
+        "image": "../imgs/products/fall/ArtichokeSeeds.png"
       }
     ],
     "winter": [
       {
-        "name": "none",
-        "type": "none",
+        "name": "",
+        "type": "",
         "price": 0,
         "image": ""
       }
