@@ -1,24 +1,19 @@
 {
   "providers": [
     {
-      "name": "Marnie",
-      "birthday": { "day": 18, "season": "Fall" },
-      "image": "../imgs/customers/Marnie.png"
+      "name": "Jesus",
+      "birthday": { "day": 23, "season": "Fall" },
+      "image": "../imgs/customers/Jesus.png"
     },
     {
-      "name": "Andy",
-      "birthday": { "day": 23, "season": "Spring" },
-      "image": "../imgs/customers/Andy.png"
+      "name": "Joseph",
+      "birthday": { "day": 13, "season": "Summer" },
+      "image": "../imgs/customers/Joseph.png"
     },
     {
-      "name": "Sofia",
-      "birthday": { "day": 27, "season": "Winter" },
-      "image": "../imgs/customers/Sofia.png"
-    },
-    {
-    "name": "Susan",
-    "birthday": { "day": 28, "season": "Fall" },
-    "image": "../imgs/customers/Susan.png"  
+    "name": "Rashi",
+    "birthday": { "day": 5, "season": "Winter" },
+    "image": "../imgs/customers/Rashi.png"  
     }
 ]
 }

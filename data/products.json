@@ -83,31 +83,31 @@
         "name": "Apricot Sapling",
         "type": "sapling",
         "price": 2000,
-        "image": ""
+        "image": "../imgs/products/year-round/ApricotSapling.png"
       },
       {
         "name": "Orange Sapling",
         "type": "sapling",
         "price": 4000,
-        "image": ""
+        "image": "../imgs/products/year-round/OrangeSapling.png"
       },
       {
         "name": "Peach Sapling",
         "type": "sapling",
         "price": 6000,
-        "image": ""
+        "image": "../imgs/products/year-round/PeachSapling.png"
       },
       {
         "name": "Pomegranate Sapling",
         "type": "sapling",
         "price": 6000,
-        "image": ""
+        "image": "../imgs/products/year-round/PomegranateSapling.png"
       },
       {
         "name": "Apple Sapling",
         "type": "sapling",
         "price": 4000,
-        "image": ""
+        "image": "../imgs/products/year-round/AppleSapling.png"
       }
     ],
     "spring": [
@@ -115,55 +115,55 @@
         "name": "Parsnip Seeds",
         "type": "seed",
         "price": 20,
-        "image": ""
+        "image": "../imgs/products/spring/ParsnipSeeds.png"
       },
       {
         "name": "Bean Starter",
         "type": "starter",
         "price": 60,
-        "image": ""
+        "image": "../imgs/products/spring/BeanStarter.png"
       },
       {
         "name": "Cauliflower Seeds",
         "type": "seed",
         "price": 80,
-        "image": ""
+        "image": "../imgs/products/spring/CauliflowerSeeds.png"
       },
       {
         "name": "Potato Seeds",
         "type": "seed",
         "price": 50,
-        "image": ""
+        "image": "../imgs/products/spring/PotatoSeeds.png"
       },
       {
         "name": "Tulip Bulb",
         "type": "bulb",
         "price": 20,
-        "image": ""
+        "image": "../imgs/products/spring/TulipBulb.png"
       },
       {
         "name": "Kale Seeds",
         "type": "seed",
         "price": 70,
-        "image": ""
+        "image": "../imgs/products/spring/KaleSeeds.png"
       },
       {
         "name": "Jazz Seeds",
         "type": "seed",
         "price": 30,
-        "image": ""
+        "image": "../imgs/products/spring/JazzSeeds.png"
       },
       {
         "name": "Garlic Seeds",
         "type": "seed",
         "price": 40,
-        "image": ""
+        "image": "../imgs/products/spring/GarlicSeeds.png"
       },
       {
         "name": "Rice Shoot",
         "type": "seed",
         "price": 40,
-        "image": ""
+        "image": "../imgs/products/spring/RiceShoot.png"
       }
     ],
     "summer": [
