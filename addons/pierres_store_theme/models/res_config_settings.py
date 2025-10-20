@@ -46,7 +46,7 @@ class ResConfigSettings(models.TransientModel):
     primary_hover = fields.Char(string="Hover Primary Color",
                                 config_parameter=
                                 'pierres_store_theme.primary_hover',
-                                default='#9E4F2B')
+                                default='#2B9E6B')
     light_hover = fields.Char(string="Light Hover",
                               config_parameter='pierres_store_theme.light_hover',
                               default='#d5d5d5')
@@ -56,7 +56,7 @@ class ResConfigSettings(models.TransientModel):
     appbar_hover = fields.Char(string="AppBar Hover",
                                config_parameter=
                                'pierres_store_theme.appbar_hover',
-                               default='#9E4F2B')
+                               default='#2B9E6B')
 
     def config_color_settings(self):
         """
