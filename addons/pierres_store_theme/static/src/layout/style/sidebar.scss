@@ -2,7 +2,7 @@
     height: calc(100% - 0%);
     position: fixed;
     background-color: var(--app-bar-accent) !important;
-    width: 82px;
+    width: 100px;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar for Firefox */
@@ -17,7 +17,7 @@
     &:after {
         content: "";
         position: fixed;
-        width: 80px;
+        width: 100px;
         height: 100px;
         bottom: 0;
         left: 0;
@@ -90,7 +90,7 @@
         height: 80px !important;
         position: fixed;
         background-color: var(--app-bar-accent) !important;
-        max-width: 80px;
+        max-width: 100px;
         top: 0;
         .dropdown-toggle{
             padding-left: 15px !important;
@@ -119,7 +119,7 @@
 .sidebar_menu .o_menu_systray .o_user_menu .o-dropdown--menu {
     display: flex;
     top: 10px !important;
-    left: 80px !important;
+    left: 100px !important;
     overflow: visible;
     z-index: 2;
     &:after{
@@ -149,7 +149,8 @@
     }
 }
 .sidebar_menu > .o_menu_systray > .o_user_menu{
-    margin-left: 0px;
+    margin-left: 0px !important;
+    width: 100%;
 }
 .o_menu_systray .dropdown-toggle:hover:hover {
     background-color: var(--primary-hover) !important;
