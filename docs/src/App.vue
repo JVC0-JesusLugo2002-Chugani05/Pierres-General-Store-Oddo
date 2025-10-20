@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import Hero from './Components/Header/Hero.vue'
-import Title from './Components/Main/Common/Title.vue'
 
 import AboutSection from './Components/Main/AboutSection/AboutSection.vue'
 import ERPSection from './Components/Main/ERPSection/ERPSection.vue'
 import ModulesSection from './Components/Main/ModulesSection/ModulesSection.vue'
 import ProblemsSection from './Components/Main/ProblemsSection/ProblemsSection.vue'
+import AuthorsSection from './Components/Main/AuthorsSection/AuthorsSection.vue'
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import ProblemsSection from './Components/Main/ProblemsSection/ProblemsSection.v
     <ERPSection />
     <ModulesSection />
     <ProblemsSection />
-    <Title url="/img/autores.png" />
+    <AuthorsSection/>
   </main>
   <footer></footer>
 </template>
