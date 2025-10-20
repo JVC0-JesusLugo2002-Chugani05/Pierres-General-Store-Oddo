@@ -38,7 +38,7 @@ class ResConfigSettings(models.TransientModel):
     primary_accent = fields.Char(string="Navbar color",
                                  config_parameter=
                                  'pierres_store_theme.primary_accent_color',
-                                 default='#A53860')
+                                 default='#9E3B2B')
     kanban_bg_color = fields.Char(string="Kanban Bg Color",
                                   config_parameter=
                                   'pierres_store_theme.kanban_bg_color',
@@ -46,7 +46,7 @@ class ResConfigSettings(models.TransientModel):
     primary_hover = fields.Char(string="Hover Primary Color",
                                 config_parameter=
                                 'pierres_store_theme.primary_hover',
-                                default='#953256')
+                                default='#9E4F2B')
     light_hover = fields.Char(string="Light Hover",
                               config_parameter='pierres_store_theme.light_hover',
                               default='#d5d5d5')
@@ -56,7 +56,7 @@ class ResConfigSettings(models.TransientModel):
     appbar_hover = fields.Char(string="AppBar Hover",
                                config_parameter=
                                'pierres_store_theme.appbar_hover',
-                               default='#953256')
+                               default='#9E4F2B')
 
     def config_color_settings(self):
         """
