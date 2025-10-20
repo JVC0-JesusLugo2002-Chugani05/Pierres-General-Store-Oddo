@@ -14,7 +14,7 @@ import ModulesSection from './Components/Main/ModulesSection/ModulesSection.vue'
   <main class="container-fluid">
     <AboutSection />
     <ERPSection />
-    <ModulesSection/>
+    <ModulesSection />
     <Title url="/img/problemas-resueltos.png" />
     <Title url="/img/autores.png" />
   </main>
