@@ -7,7 +7,7 @@ const { url } = defineProps({
 </script>
 
 <template>
-  <div class="title-container container">
+  <div class="title-container container pt-5">
     <img :src="url" class="title" />
   </div>
 </template>

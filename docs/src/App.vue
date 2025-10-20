@@ -5,6 +5,7 @@ import Title from './Components/Main/Common/Title.vue'
 import AboutSection from './Components/Main/AboutSection/AboutSection.vue'
 import ERPSection from './Components/Main/ERPSection/ERPSection.vue'
 import ModulesSection from './Components/Main/ModulesSection/ModulesSection.vue'
+import ProblemsSection from './Components/Main/ProblemsSection/ProblemsSection.vue'
 </script>
 
 <template>
@@ -15,7 +16,7 @@ import ModulesSection from './Components/Main/ModulesSection/ModulesSection.vue'
     <AboutSection />
     <ERPSection />
     <ModulesSection />
-    <Title url="/img/problemas-resueltos.png" />
+    <ProblemsSection />
     <Title url="/img/autores.png" />
   </main>
   <footer></footer>
