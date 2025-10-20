@@ -21,7 +21,7 @@ const { id, title, imgUrl, description } = defineProps({
         {{ title }}
       </div>
       <div class="row">
-        <p class="card-body text-start lead">{{ description }}</p>
+        <p class="card-body text-start">{{ description }}</p>
       </div>
     </div>
   </button>

@@ -37,7 +37,7 @@ EOF`
     <div class="row">
       <ERPCard id="card-1" title="¿Cuál?">
         <div class="h-100">
-          <p class="p-3 lead">
+          <p class="p-3">
             Tras haber realizado observaciones en el caso de Pierre hemos decidido usar
             <strong>Odoo</strong> como ERP, una plataforma de software empresarial de
             <b>código abierto</b> que centraliza las diferentes areas del negocio.
@@ -51,7 +51,7 @@ EOF`
         </div>
       </ERPCard>
       <ERPCard id="card-2" title="¿Por qué?">
-        <p class="p-3 lead">
+        <p class="p-3">
           El caso de Pierre demanda con urgencia de un ERP pues la naturaleza creciente del mercado
           local aumentará su flujo de entrada/salida rápidamente y
           <b>debe tener un presente un robusto sistema de gestión</b> que le facilite la
@@ -63,7 +63,7 @@ EOF`
       </ERPCard>
       <ERPCard id="card-3" title="¿Cómo?">
         <div class="h-100">
-          <p class="p-3 lead">
+          <p class="p-3">
             La implementación de Odoo se llevará a cabo mediante el uso de Docker Compose, haciendo
             uso de una imagen de Odoo oficial junto al de PostgreSQL como base de datos.
           </p>

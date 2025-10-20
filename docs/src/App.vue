@@ -17,7 +17,7 @@ import AuthorsSection from './Components/Main/AuthorsSection/AuthorsSection.vue'
     <ERPSection />
     <ModulesSection />
     <ProblemsSection />
-    <AuthorsSection/>
+    <AuthorsSection />
   </main>
   <footer></footer>
 </template>
