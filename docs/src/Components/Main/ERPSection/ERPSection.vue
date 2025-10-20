@@ -1,6 +1,6 @@
 <script setup>
 import ERPCard from './ERPCard.vue'
-import Title from './Title.vue'
+import Title from '../Common/Title.vue'
 
 const installationScript = `cat << EOF > docker-compose.yml
 services:
@@ -117,9 +117,18 @@ EOF`
               <pre>{{ installationScript }}</pre>
             </li>
             <li>
-                <p class="fw-bold">Ahora podemos levantar el servicio con <code>docker compose up -d --build</code> y pararlo con <code>docker compose down</code>.</p>
+              <p class="fw-bold">
+                Ahora podemos levantar el servicio con <code>docker compose up -d --build</code> y
+                pararlo con <code>docker compose down</code>.
+              </p>
             </li>
-            <li><p class="fw-bold">Una vez levantado al servicio, podemos acceder a él en <a href="localhost:8069">Localhost:8069</a> (suponiendo que no has cambiado el puerto en el <i>docker-compose.yml</i>)</p></li>
+            <li>
+              <p class="fw-bold">
+                Una vez levantado al servicio, podemos acceder a él en
+                <a href="localhost:8069">Localhost:8069</a> (suponiendo que no has cambiado el
+                puerto en el <i>docker-compose.yml</i>)
+              </p>
+            </li>
           </ol>
         </div>
         <div class="modal-footer">
@@ -145,7 +154,7 @@ p {
 }
 
 pre {
-    color: #d63384;
+  color: #d63384;
 }
 
 #odoo-button {
