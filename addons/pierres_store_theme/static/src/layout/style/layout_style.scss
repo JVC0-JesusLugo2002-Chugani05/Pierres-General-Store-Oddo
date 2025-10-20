@@ -131,7 +131,9 @@ a:hover {
     font-size: 14px;
 }
 .o_main_navbar{
-    background-color:var(--primary-accent) !important;
+    // background-color: var(--primary-accent);
+    background-image: var(--wooden-texture);
+    background-repeat: repeat;
     border-bottom: 1px solid var(--primary-hover) !important;
     margin-left: 100px;
     @media (max-width: 768px) {
@@ -413,6 +415,12 @@ a:hover {
     -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03) !important;
     box-shadow: 0 0.75rem 1.5rem rgba(18,38,63, .03) !important;
     border-radius: 0px;
+    & .tab .app_name {
+        color: white;
+    }
+    & .selected .app_name {
+        color: #000;
+    }
 }
 .o_web_settings_invite{
     height: 25.1px !important;
@@ -902,7 +910,8 @@ button.dropdown-toggle, .o_switch_view{
 }
 // V17 Fixes
 .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_sections .dropdown-toggle {
-    background: var(--primary-accent) !important;
+    // background: var(--primary-accent) !important;
+    background-color: #00000077;
     bottom: 1px !important;
 }
 .o_control_panel_actions .o_searchview {
