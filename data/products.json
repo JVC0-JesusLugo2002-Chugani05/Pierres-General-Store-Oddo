@@ -1,0 +1,326 @@
+{
+  "products": {
+    "yearRound": [
+      {
+        "name": "Grass Starter",
+        "type": "starter",
+        "price": 100,
+        "image": "../imgs/products/year-round/GrassStarter.png"
+      },
+      {
+        "name": "Sugar",
+        "type": "ingredient",
+        "price": 100,
+        "image": "../imgs/products/year-round/Sugar.png"
+      },
+      {
+        "name": "Wheat Flour",
+        "type": "ingredient",
+        "price": 100,
+        "image": "../imgs/products/year-round/WheatFlour.png"
+      },
+      {
+        "name": "Rice",
+        "type": "ingredient",
+        "price": 200,
+        "image": "../imgs/products/year-round/Rice.png"
+      },
+      {
+        "name": "Oil",
+        "type": "ingredient",
+        "price": 200,
+        "image": "../imgs/products/year-round/Oil.png"
+      },
+      {
+        "name": "Vinegar",
+        "type": "ingredient",
+        "price": 200,
+        "image": "../imgs/products/year-round/Vinegar.png"
+      },
+      {
+        "name": "Basic Fertilizer",
+        "type": "fertilizer",
+        "price": 100,
+        "image": "../imgs/products/year-round/BasicFertilizer.png"
+      },
+      {
+        "name": "Quality Fertilizer",
+        "type": "fertilizer",
+        "price": 150,
+        "image": "../imgs/products/year-round/QualityFertilizer.png"
+      },
+      {
+        "name": "Basic Retaining Soil",
+        "type": "soil",
+        "price": 100,
+        "image": "../imgs/products/year-round/BasicRetainingSoil.png"
+      },
+      {
+        "name": "Quality Retaining Soil",
+        "type": "soil",
+        "price": 150,
+        "image": "../imgs/products/year-round/QualityRetainingSoil.png"
+      },
+      {
+        "name": "Speed-Gro",
+        "type": "fertilizer",
+        "price": 100,
+        "image": "../imgs/products/year-round/SpeedGro.png"
+      },
+      {
+        "name": "Deluxe Speed-Gro",
+        "type": "fertilizer",
+        "price": 150,
+        "image": "../imgs/products/year-round/DeluxeSpeedGro.png"
+      },
+      {
+        "name": "Cherry Sapling",
+        "type": "sapling",
+        "price": 3400,
+        "image": "../imgs/products/year-round/CherrySapling.png"
+      },
+      {
+        "name": "Apricot Sapling",
+        "type": "sapling",
+        "price": 2000,
+        "image": "../imgs/products/year-round/ApricotSapling.png"
+      },
+      {
+        "name": "Orange Sapling",
+        "type": "sapling",
+        "price": 4000,
+        "image": "../imgs/products/year-round/OrangeSapling.png"
+      },
+      {
+        "name": "Peach Sapling",
+        "type": "sapling",
+        "price": 6000,
+        "image": "../imgs/products/year-round/PeachSapling.png"
+      },
+      {
+        "name": "Pomegranate Sapling",
+        "type": "sapling",
+        "price": 6000,
+        "image": "../imgs/products/year-round/PomegranateSapling.png"
+      },
+      {
+        "name": "Apple Sapling",
+        "type": "sapling",
+        "price": 4000,
+        "image": "../imgs/products/year-round/AppleSapling.png"
+      }
+    ],
+    "spring": [
+      {
+        "name": "Parsnip Seeds",
+        "type": "seed",
+        "price": 20,
+        "image": "../imgs/products/spring/ParsnipSeeds.png"
+      },
+      {
+        "name": "Bean Starter",
+        "type": "starter",
+        "price": 60,
+        "image": "../imgs/products/spring/BeanStarter.png"
+      },
+      {
+        "name": "Cauliflower Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": "../imgs/products/spring/CauliflowerSeeds.png"
+      },
+      {
+        "name": "Potato Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": "../imgs/products/spring/PotatoSeeds.png"
+      },
+      {
+        "name": "Tulip Bulb",
+        "type": "bulb",
+        "price": 20,
+        "image": "../imgs/products/spring/TulipBulb.png"
+      },
+      {
+        "name": "Kale Seeds",
+        "type": "seed",
+        "price": 70,
+        "image": "../imgs/products/spring/KaleSeeds.png"
+      },
+      {
+        "name": "Jazz Seeds",
+        "type": "seed",
+        "price": 30,
+        "image": "../imgs/products/spring/JazzSeeds.png"
+      },
+      {
+        "name": "Garlic Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": "../imgs/products/spring/GarlicSeeds.png"
+      },
+      {
+        "name": "Rice Shoot",
+        "type": "seed",
+        "price": 40,
+        "image": "../imgs/products/spring/RiceShoot.png"
+      }
+    ],
+    "summer": [
+      {
+        "name": "Melon Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": "../imgs/products/summer/MelonSeeds.png"
+      },
+      {
+        "name": "Tomato Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": "../imgs/products/summer/TomatoSeeds.png"
+      },
+      {
+        "name": "Blueberry Seeds",
+        "type": "seed",
+        "price": 80,
+        "image": "../imgs/products/summer/BlueberrySeeds.png"
+      },
+      {
+        "name": "Pepper Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": "../imgs/products/summer/PepperSeeds.png"
+      },
+      {
+        "name": "Wheat Seeds",
+        "type": "seed",
+        "price": 10,
+        "image": "../imgs/products/summer-and-fall/WheatSeeds.png"
+      },
+      {
+        "name": "Radish Seeds",
+        "type": "seed",
+        "price": 40,
+        "image": "../imgs/products/summer/RadishSeeds.png"
+      },
+      {
+        "name": "Poppy Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": "../imgs/products/summer/PoppySeeds.png"
+      },
+      {
+        "name": "Spangle Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": "../imgs/products/summer/SpangleSeeds.png"
+      },
+      {
+        "name": "Hops Starter",
+        "type": "starter",
+        "price": 60,
+        "image": "../imgs/products/summer/HopsStarter.png"
+      },
+      {
+        "name": "Corn Seeds",
+        "type": "seed",
+        "price": 150,
+        "image": "../imgs/products/summer-and-fall/CornSeeds.png"
+      },
+      {
+        "name": "Sunflower Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": "../imgs/products/summer-and-fall/SunflowerSeeds.png"
+      },
+      {
+        "name": "Red Cabbage Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": "../imgs/products/summer/RedCabbageSeeds.png"
+      }
+    ],
+    "fall": [
+      {
+        "name": "Eggplant Seeds",
+        "type": "seed",
+        "price": 20,
+        "image": "../imgs/products/fall/EggplantSeeds.png"
+      },
+      {
+        "name": "Corn Seeds",
+        "type": "seed",
+        "price": 150,
+        "image": "../imgs/products/summer-and-fall/CornSeeds.png"
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "type": "seed",
+        "price": 100,
+        "image": "../imgs/products/fall/PumpkinSeeds.png"
+      },
+      {
+        "name": "Bok Choy Seeds",
+        "type": "seed",
+        "price": 50,
+        "image": "../imgs/products/fall/BokChoySeeds.png"
+      },
+      {
+        "name": "Yam Seeds",
+        "type": "seed",
+        "price": 60,
+        "image": "../imgs/products/fall/YamSeeds.png"
+      },
+      {
+        "name": "Cranberry Seeds",
+        "type": "seed",
+        "price": 240,
+        "image": "../imgs/products/fall/CranberrySeeds.png"
+      },
+      {
+        "name": "Sunflower Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": "../imgs/products/summer-and-fall/SunflowerSeeds.png"
+      },
+      {
+        "name": "Fairy Seeds",
+        "type": "seed",
+        "price": 200,
+        "image": "../imgs/products/fall/FairySeeds.png"
+      },
+      {
+        "name": "Amaranth Seeds",
+        "type": "seed",
+        "price": 70,
+        "image": "../imgs/products/fall/AmaranthSeeds.png"
+      },
+      {
+        "name": "Grape Starter",
+        "type": "starter",
+        "price": 60,
+        "image": "../imgs/products/fall/GrapeStarter.png"
+      },
+      {
+        "name": "Wheat Seeds",
+        "type": "seed",
+        "price": 10,
+        "image": "../imgs/products/summer-and-fall/WheatSeeds.png"
+      },
+      {
+        "name": "Artichoke Seeds",
+        "type": "seed",
+        "price": 30,
+        "image": "../imgs/products/fall/ArtichokeSeeds.png"
+      }
+    ],
+    "winter": [
+      {
+        "name": "",
+        "type": "",
+        "price": 0,
+        "image": ""
+      }
+    ]
+  }
+}
