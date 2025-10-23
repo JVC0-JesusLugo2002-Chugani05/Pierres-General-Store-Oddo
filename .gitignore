@@ -1,6 +1,6 @@
 .env
 database/
-odoo/
+odoo/sessions/
 
 # Addon cache
 __pycache__
