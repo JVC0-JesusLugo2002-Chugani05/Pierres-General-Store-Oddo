@@ -5,22 +5,21 @@ import ProblemItem from './ProblemItem.vue'
 const problems = [
   {
     title: 'Administración de los clientes',
-    imgUrl: 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png',
+    imgUrl: '/img/problems-banners/calendar.png',
     description:
-      'En la tienda de Pierre, uno de los pilares más importantes de su negocio es la cercanía que tiene con sus clientes, para mantener ello, se asegura de registrar sus cumpleaños en el calendario y de ofrecer descuentos en ellos para afianzar sus relaciones.',
-  },
-  {
-    title: 'Control del flujo de compras y ventas',
-    imgUrl: 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png',
-    description:
-      'La tienda trabaja con productos que entran y salen del inventario al día',
+      'En la tienda de Pierre, uno de los pilares más importantes de su negocio es la cercanía que tiene con sus clientes, para mantener ello, se asegura de registrar sus cumpleaños en el módulo de calendario y de ofrecer descuentos en ellos para afianzar sus relaciones.',
   },
   {
     title: 'Gestión del inventario',
-    imgUrl: 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png',
+    imgUrl: 'img/problems-banners/inventory.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptas perspiciatis nisi quia non quos, dicta, neque dolores, rem libero vero consequuntur incidunt. Incidunt odit qui, explicabo eius atque illo.',
+    'El diario y rápido movimiento del inventario implica con ello una buena administración del mismo, por lo tanto, gracias al módulo de inventario y sus útiles funcionalidades, Pierres ha podido gestionar de una forma más limpia y eficaz el inventario de su negocio.',
   },
+  {
+    title: 'Control del flujo de compras y ventas',
+    imgUrl: 'public/img/problems-banners/selling-items.png',
+    description: 'La tienda trabaja con productos que entran y salen del inventario al día y estos movimientos requieren de un control y un registro necesario para salvaguardar los datos que más adelante pueden ser usados, por lo tanto, Pierre hace uso de los módulos de ventas y compras para gestionar y facilitarse el trabajo.',
+  },  
 ]
 </script>
 
