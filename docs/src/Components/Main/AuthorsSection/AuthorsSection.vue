@@ -25,7 +25,7 @@ const profiles = [
 </script>
 
 <template>
-  <section class="AuthorsSection">
+  <section id="AuthorsSection">
     <Title url="/img/autores.png" />
     <div class="container">
       <div class="row d-flex justify-content-center">

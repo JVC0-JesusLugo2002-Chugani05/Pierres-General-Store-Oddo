@@ -1,7 +1,7 @@
 <script setup>
 import ERPCard from './ERPCard.vue'
 import Title from '../Common/Title.vue'
-import Instructions from './Instructions.vue';
+import Instructions from './Instructions.vue'
 </script>
 
 <template>
@@ -40,13 +40,11 @@ import Instructions from './Instructions.vue';
             La implementación de Odoo se llevará a cabo mediante el uso de Docker Compose, haciendo
             uso de una imagen de Odoo oficial junto al de PostgreSQL como base de datos.
           </p>
-          <Instructions/>
+          <Instructions />
         </div>
       </ERPCard>
     </div>
   </section>
-
-  
 </template>
 
 <style scoped>

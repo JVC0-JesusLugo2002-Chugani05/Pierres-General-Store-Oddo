@@ -6,6 +6,7 @@ import ERPSection from './Components/Main/ERPSection/ERPSection.vue'
 import ModulesSection from './Components/Main/ModulesSection/ModulesSection.vue'
 import ProblemsSection from './Components/Main/ProblemsSection/ProblemsSection.vue'
 import AuthorsSection from './Components/Main/AuthorsSection/AuthorsSection.vue'
+import BackupSection from './Components/Main/BackupSection/BackupSection.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import AuthorsSection from './Components/Main/AuthorsSection/AuthorsSection.vue'
     <ERPSection />
     <ModulesSection />
     <ProblemsSection />
+    <BackupSection/>
     <AuthorsSection />
   </main>
   <footer></footer>
