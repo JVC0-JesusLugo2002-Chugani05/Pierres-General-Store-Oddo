@@ -24,16 +24,29 @@
         <div class="modal-body">
           <div class="row">
             <p>
-              Para crear la copia de seguridad, debemos <b>acceder al menú de gestión de bases de datos de Odoo</b>. Para ello, <b>debemos cerrar nuestra sesión (si tenemos alguna activa)</b>. Esto nos redirigirá al siguiente menú:
+              Para crear la copia de seguridad, debemos
+              <b>acceder al menú de gestión de bases de datos de Odoo</b>. Para ello,
+              <b>debemos cerrar nuestra sesión (si tenemos alguna activa)</b>. Esto nos redirigirá
+              al siguiente menú:
             </p>
-            <img src="/img/erp-section/how-backup.png" alt="Database management menu" class="img-fluid my-3">
+            <img
+              src="/img/erp-section/how-backup.png"
+              alt="Database management menu"
+              class="img-fluid my-3"
+            />
             <p>
-              Y al darle la opción de <span class="text-primary fw-bold"><i class="bi bi-floppy"></i> Backup</span>, nos aparecerá el siguiente formulario: 
+              Y al darle la opción de
+              <span class="text-primary fw-bold"><i class="bi bi-floppy"></i> Backup</span>, nos
+              aparecerá el siguiente formulario:
             </p>
-            <img src="/img/erp-section/backup-form.png" alt="Backup form" class="img-fluid my-3">
+            <img src="/img/erp-section/backup-form.png" alt="Backup form" class="img-fluid my-3" />
             <p>
-              Una vez ingresada la contraseña maestra y el tipo de archivo a exportar, directamente descargará la copia de seguridad en nuestro dispositivo.
+              Una vez ingresada la contraseña maestra y el tipo de archivo a exportar, directamente
+              descargará la copia de seguridad en nuestro dispositivo.
             </p>
+            <div class="alert alert-primary w-100 text-center" role="alert">
+              <i class="bi bi-card-image"></i> Importante saber que en <i>filestore</i> es donde se almacenan las imágenes de las bases de datos.
+            </div>
           </div>
         </div>
       </div>
