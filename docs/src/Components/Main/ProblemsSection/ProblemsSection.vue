@@ -13,13 +13,14 @@ const problems = [
     title: 'Gestión del inventario',
     imgUrl: 'img/problems-banners/inventory.png',
     description:
-    'El diario y rápido movimiento del inventario implica con ello una buena administración del mismo, por lo tanto, gracias al módulo de inventario y sus útiles funcionalidades, Pierres ha podido gestionar de una forma más limpia y eficaz el inventario de su negocio.',
+      'El diario y rápido movimiento del inventario implica con ello una buena administración del mismo, por lo tanto, gracias al módulo de inventario y sus útiles funcionalidades, Pierres ha podido gestionar de una forma más limpia y eficaz el inventario de su negocio.',
   },
   {
     title: 'Control del flujo de compras y ventas',
     imgUrl: '/img/problems-banners/selling-items.png',
-    description: 'La tienda trabaja con productos que entran y salen del inventario al día y estos movimientos requieren de un control y un registro necesario para salvaguardar los datos que más adelante pueden ser usados, por lo tanto, Pierre hace uso de los módulos de ventas y compras para gestionar y facilitarse el trabajo.',
-  },  
+    description:
+      'La tienda trabaja con productos que entran y salen del inventario al día y estos movimientos requieren de un control y un registro necesario para salvaguardar los datos que más adelante pueden ser usados, por lo tanto, Pierre hace uso de los módulos de ventas y compras para gestionar y facilitarse el trabajo.',
+  },
 ]
 </script>
 
