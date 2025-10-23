@@ -45,7 +45,8 @@
               descargará la copia de seguridad en nuestro dispositivo.
             </p>
             <div class="alert alert-primary w-100 text-center" role="alert">
-              <i class="bi bi-card-image"></i> Importante saber que en <i>filestore</i> es donde se almacenan las imágenes de las bases de datos.
+              <i class="bi bi-card-image"></i> Importante saber que en <i>filestore</i> es donde se
+              almacenan las imágenes de las bases de datos.
             </div>
           </div>
         </div>
