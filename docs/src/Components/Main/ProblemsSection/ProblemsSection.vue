@@ -17,7 +17,7 @@ const problems = [
   },
   {
     title: 'Control del flujo de compras y ventas',
-    imgUrl: 'public/img/problems-banners/selling-items.png',
+    imgUrl: '/img/problems-banners/selling-items.png',
     description: 'La tienda trabaja con productos que entran y salen del inventario al día y estos movimientos requieren de un control y un registro necesario para salvaguardar los datos que más adelante pueden ser usados, por lo tanto, Pierre hace uso de los módulos de ventas y compras para gestionar y facilitarse el trabajo.',
   },  
 ]
