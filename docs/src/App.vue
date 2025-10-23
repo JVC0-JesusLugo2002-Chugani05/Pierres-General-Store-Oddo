@@ -18,7 +18,7 @@ import BackupSection from './Components/Main/BackupSection/BackupSection.vue'
     <ERPSection />
     <ModulesSection />
     <ProblemsSection />
-    <BackupSection/>
+    <BackupSection />
     <AuthorsSection />
   </main>
   <footer></footer>

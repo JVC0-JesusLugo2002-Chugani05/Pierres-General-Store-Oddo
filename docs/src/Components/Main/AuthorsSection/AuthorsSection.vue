@@ -5,20 +5,17 @@ import AuthorItem from './AuthorItem.vue'
 const profiles = [
   {
     titleUrl: '/img/authors/rashi-chugani.png',
-    image:
-      '/img/authors/rashi-chugani-avatar.png',
+    image: '/img/authors/rashi-chugani-avatar.png',
     githubUrl: 'https://github.com/Chugani05',
   },
   {
     titleUrl: '/img/authors/jesus-lugo.png',
-    image:
-      '/img/authors/jesus-lugo-avatar.png',
+    image: '/img/authors/jesus-lugo-avatar.png',
     githubUrl: 'https://github.com/JesusLugo2002',
   },
   {
     titleUrl: '/img/authors/joseph-castillo.png',
-    image:
-      '/img/authors/joseph-castillo-avatar.png',
+    image: '/img/authors/joseph-castillo-avatar.png',
     githubUrl: 'https://github.com/JVC0',
   },
 ]
