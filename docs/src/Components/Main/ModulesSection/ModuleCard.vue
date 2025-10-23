@@ -1,8 +1,8 @@
 <script setup>
-const { id, title, imgUrl, description } = defineProps({
+const { id, title, iconUrl, description } = defineProps({
   id: String,
   title: String,
-  imgUrl: String,
+  iconUrl: String,
   description: String,
 })
 </script>
@@ -17,21 +17,18 @@ const { id, title, imgUrl, description } = defineProps({
   >
     <div class="card-body">
       <div class="row h3">
-        <img class="col-1 img-fluid" :src="imgUrl" :alt="id + ' icon'" />
+        <img class="col-1 img-fluid" :src="iconUrl" :alt="id + ' icon'" />
         {{ title }}
-      </div>
-      <div class="row">
-        <p class="card-body text-start">{{ description }}</p>
       </div>
     </div>
   </button>
 
   <div class="modal fade" :id="id + 'Modal'" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-3" id="exampleModalLabel">
-            <img :src="imgUrl" :alt="id + ' icon in modal'" class="mx-2" />
+            <img :src="iconUrl" :alt="id + ' icon in modal'" class="mx-2" />
             {{ title }}
           </h1>
           <button
@@ -41,7 +38,7 @@ const { id, title, imgUrl, description } = defineProps({
             aria-label="Close"
           ></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body lead">
           {{ description }}
         </div>
       </div>
