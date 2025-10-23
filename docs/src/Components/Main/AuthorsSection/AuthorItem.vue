@@ -9,10 +9,10 @@ const { titleUrl, image, githubUrl } = defineProps({
 <template>
   <a
     :href="githubUrl"
-    class="col-3 d-flex m-5 flex-column text-center justify-content-center text-decoration-none text-reset"
+    class="col-3 d-flex m-3 flex-column text-center justify-content-center text-decoration-none text-reset"
     target="_blank"
   >
-    <img :src="image" alt="profile image" class="rounded-circle" />
+    <img :src="image" alt="profile image" class="avatar rounded-circle img-fluid shadow-lg" />
     <img :src="titleUrl" alt="profile title" class="mt-3" />
   </a>
 </template>
@@ -23,5 +23,8 @@ a {
 }
 a:hover {
   transform: scale(1.05);
+}
+.avatar {
+  width: 20vw;
 }
 </style>

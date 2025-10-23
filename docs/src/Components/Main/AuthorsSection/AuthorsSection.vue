@@ -6,19 +6,19 @@ const profiles = [
   {
     titleUrl: '/img/authors/rashi-chugani.png',
     image:
-      'https://th.bing.com/th/id/R.3e77a1db6bb25f0feb27c95e05a7bc57?rik=07AQ3YRhkD3z8A&pid=ImgRaw&r=0',
+      '/img/authors/rashi-chugani-avatar.png',
     githubUrl: 'https://github.com/Chugani05',
   },
   {
     titleUrl: '/img/authors/jesus-lugo.png',
     image:
-      'https://th.bing.com/th/id/R.3e77a1db6bb25f0feb27c95e05a7bc57?rik=07AQ3YRhkD3z8A&pid=ImgRaw&r=0',
+      '/img/authors/jesus-lugo-avatar.png',
     githubUrl: 'https://github.com/JesusLugo2002',
   },
   {
     titleUrl: '/img/authors/joseph-castillo.png',
     image:
-      'https://th.bing.com/th/id/R.3e77a1db6bb25f0feb27c95e05a7bc57?rik=07AQ3YRhkD3z8A&pid=ImgRaw&r=0',
+      '/img/authors/joseph-castillo-avatar.png',
     githubUrl: 'https://github.com/JVC0',
   },
 ]
