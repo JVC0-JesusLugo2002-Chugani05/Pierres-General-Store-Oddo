@@ -16,10 +16,10 @@ const { id, title, iconUrl, description } = defineProps({
     :data-bs-target="'#' + id + 'Modal'"
   >
     <div class="card-body d-flex flex-column justify-content-center align-items-center">
-        <img class="img-fluid" :src="iconUrl" :alt="id + ' icon'" />
-        <p class="lead fw-bold">
-          {{ title }}
-        </p>
+      <img class="img-fluid" :src="iconUrl" :alt="id + ' icon'" />
+      <p class="lead fw-bold">
+        {{ title }}
+      </p>
     </div>
   </button>
 
