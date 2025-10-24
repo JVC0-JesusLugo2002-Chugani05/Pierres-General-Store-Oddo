@@ -1,0 +1,40 @@
+
+                .o_company_1_layout {
+                font-family: Raleway;
+                &.o_clean_footer {
+                    border-top: 3px solid #af8f61;
+                    h4 {
+                        color: #af8f61;
+                    }
+                    .pagenumber {
+                        border: 3px solid #8e5036;
+                        background-color: #af8f61;
+                    }
+                }
+                &.o_report_layout_bold {
+                    h1, h2, h3 {
+                        color: #8e5036;
+                    }
+                    strong {
+                        color: #af8f61;
+                    }
+                    table {
+                       thead {
+                           color: #af8f61;
+                           tr th {
+                                border-top: 3px solid #af8f61 !important;
+                            }
+                        }
+                        tbody {
+                            tr:last-child td {
+                                border-bottom: 3px solid #af8f61;
+                            }
+                        }
+                    }
+                    #total, .totals_taxes_company_currency {
+                        strong {
+                            color: #af8f61;
+                        }
+                    }
+                }
+            }
