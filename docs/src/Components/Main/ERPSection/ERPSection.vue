@@ -6,7 +6,7 @@ import Instructions from './Instructions.vue'
 
 <template>
   <section id="ERPSection">
-    <Title url="/img/erp-elegido.png" />
+    <Title filename="erp-elegido.png" />
     <div class="row">
       <ERPCard id="card-1" title="¿Cuál?">
         <div class="h-100">

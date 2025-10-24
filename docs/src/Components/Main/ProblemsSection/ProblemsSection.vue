@@ -26,7 +26,7 @@ const problems = [
 
 <template>
   <section id="ProblemsSection">
-    <Title url="/img/problemas-resueltos.png" />
+    <Title filename="problemas-resueltos.png" />
     <div class="container-fluid mt-3">
       <div class="row row-cols-3 d-flex justify-content-center">
         <ProblemItem

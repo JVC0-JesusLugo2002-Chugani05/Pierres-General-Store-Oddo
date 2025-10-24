@@ -53,7 +53,7 @@ const modules = [
 
 <template>
   <section id="ModulesSection">
-    <Title url="/img/modulos-utilizados.png" />
+    <Title filename="modulos-utilizados.png" />
     <div class="container my-5">
       <div class="row row-cols-3 g-5 d-flex justify-content-center">
         <ModuleCard

@@ -1,14 +1,14 @@
 <script setup>
 import { defineProps } from 'vue'
 
-const { url } = defineProps({
-  url: String,
+const { filename } = defineProps({
+  filename: String,
 })
 </script>
 
 <template>
   <div class="title-container container pt-5">
-    <img :src="url" class="title" />
+    <img :src="'/img/titles/' + filename" class="title" />
   </div>
 </template>
 

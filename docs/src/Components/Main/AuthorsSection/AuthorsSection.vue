@@ -23,7 +23,7 @@ const profiles = [
 
 <template>
   <section id="AuthorsSection">
-    <Title url="/img/autores.png" />
+    <Title filename="autores.png" />
     <div class="container">
       <div class="row d-flex justify-content-center">
         <AuthorItem

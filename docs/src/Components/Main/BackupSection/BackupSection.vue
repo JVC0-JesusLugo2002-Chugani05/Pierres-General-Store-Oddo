@@ -6,7 +6,7 @@ import UseBackupModal from './UseBackupModal.vue'
 
 <template>
   <section id="BackupSection">
-    <Title url="/img/como-usar-copias-de-seguridad.png" />
+    <Title filename="como-usar-copias-de-seguridad.png" />
     <div class="container mt-3">
       <div class="row">
         <CreateBackupModal />

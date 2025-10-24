@@ -4,7 +4,7 @@ import Title from '../Common/Title.vue'
 
 <template>
   <section class="container" id="AboutSection">
-    <Title url="/img/la-tienda-de-pierre.png" />
+    <Title filename="la-tienda-de-pierre.png"/>
     <div class="card p-5 shadow-lg rounded-5">
       <div class="row">
         <div class="col text-justify">
@@ -32,7 +32,7 @@ import Title from '../Common/Title.vue'
         </div>
         <div class="col-3 text-center">
           <figure class="figure">
-            <img src="/img/pierre-portrait.jpeg" alt="Pierre portrait" class="figure-img rounded" />
+            <img src="/img/about-section/pierre-portrait.jpeg" alt="Pierre portrait" class="figure-img rounded" />
             <figcaption class="figure-caption">Pierre, dueño de la tienda</figcaption>
           </figure>
         </div>
@@ -62,11 +62,11 @@ import Title from '../Common/Title.vue'
         </div>
         <div class="modal-body d-flex justify-content-around align-items-center">
           <figure class="figure text-center">
-            <img src="/img/pierre-shop.png" alt="" class="img-fluid" />
+            <img src="/img/about-section/pierre-shop.png" alt="" class="img-fluid" />
             <figcaption class="figure-caption">Tienda de Pierre</figcaption>
           </figure>
           <figure class="figure text-center">
-            <img src="/img/pierre-location.png" alt="" class="img-fluid" />
+            <img src="/img/about-section/pierre-location.png" alt="" class="img-fluid" />
             <figcaption class="figure-caption">Ubicación en Pueblo Pelícano</figcaption>
           </figure>
         </div>
