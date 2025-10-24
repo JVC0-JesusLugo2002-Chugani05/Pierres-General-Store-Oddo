@@ -1,9 +1,18 @@
 <script setup>
-const { id, title, iconUrl, description } = defineProps({
+import Calendario from './Modules/Calendario.vue'
+import Compras from './Modules/Compras.vue'
+import CRM from './Modules/CRM.vue'
+import Empleados from './Modules/Empleados.vue'
+import Facturacion from './Modules/Facturacion.vue'
+import Inventario from './Modules/Inventario.vue'
+import PuntoDeVenta from './Modules/PuntoDeVenta.vue'
+import Tema from './Modules/Tema.vue'
+import Ventas from './Modules/Ventas.vue'
+
+const { id, title, iconUrl } = defineProps({
   id: String,
   title: String,
   iconUrl: String,
-  description: String,
 })
 </script>
 
@@ -38,9 +47,15 @@ const { id, title, iconUrl, description } = defineProps({
             aria-label="Close"
           ></button>
         </div>
-        <div class="modal-body lead">
-          {{ description }}
-        </div>
+        <Facturacion v-if="id == 'facturacion'" />
+        <Empleados v-else-if="id == 'empleados'" />
+        <Compras v-else-if="id == 'compras'" />
+        <Ventas v-else-if="id == 'ventas'" />
+        <PuntoDeVenta v-else-if="id == 'punto-de-venta'" />
+        <Inventario v-else-if="id == 'inventario'" />
+        <CRM v-else-if="id == 'crm'" />
+        <Calendario v-else-if="id == 'calendario'" />
+        <Tema v-else />
       </div>
     </div>
   </div>
