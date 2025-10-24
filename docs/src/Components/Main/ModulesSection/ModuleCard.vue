@@ -32,11 +32,11 @@ const { id, title, iconUrl } = defineProps({
     </div>
   </button>
 
-  <div class="modal fade" :id="id + 'Modal'" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+  <div class="modal fade m-0 p-0" :id="id + 'Modal'" tabindex="-1">
+    <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-3" id="exampleModalLabel">
+          <h1 class="modal-title fs-3" :id="id + 'ModalLabel'">
             <img :src="iconUrl" :alt="id + ' icon in modal'" class="mx-2" />
             {{ title }}
           </h1>
