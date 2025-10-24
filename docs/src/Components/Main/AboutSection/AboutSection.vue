@@ -4,7 +4,7 @@ import Title from '../Common/Title.vue'
 
 <template>
   <section class="container" id="AboutSection">
-    <Title filename="la-tienda-de-pierre.png"/>
+    <Title filename="la-tienda-de-pierre.png" />
     <div class="card p-5 shadow-lg rounded-5">
       <div class="row">
         <div class="col text-justify">
@@ -32,7 +32,11 @@ import Title from '../Common/Title.vue'
         </div>
         <div class="col-3 text-center">
           <figure class="figure">
-            <img src="/img/about-section/pierre-portrait.jpeg" alt="Pierre portrait" class="figure-img rounded" />
+            <img
+              src="/img/about-section/pierre-portrait.jpeg"
+              alt="Pierre portrait"
+              class="figure-img rounded"
+            />
             <figcaption class="figure-caption">Pierre, dueño de la tienda</figcaption>
           </figure>
         </div>
