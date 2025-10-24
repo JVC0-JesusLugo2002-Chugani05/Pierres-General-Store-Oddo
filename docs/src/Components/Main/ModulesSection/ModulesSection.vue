@@ -59,13 +59,20 @@ const modules = [
     description:
       'Por último, el módulo de calendario le permite a Pierre gestionar mejor su tiempo y preparar recursos para la celebración de eventos en el pueblo, registrar los cumpleaños de sus clientes para ofrecer regalos y descuentos, y programar las reuniones desde un único punto de la aplicación.',
   },
+  {
+    id: 'tema-app',
+    title: 'Tema backend',
+    iconUrl: '/img/modules-icons/jumino.png',
+    description:
+      'Como regalo por ser un cliente fiel a nuestro equipo de consultores, se ha dotado el software con un módulo extra que personaliza el aspecto visual de la aplicación, combinándolo con la temática rústica de la tienda y añadiendo un menú principal intuitivo donde ver las aplicaciones disponibles. Este tema es un fork de un tema ya existente llamado "Hue Backend Theme" creado por Cybrosis Techno que ha sido posteriormente adaptado a nuestras necesidades.',
+  },
 ]
 </script>
 
 <template>
   <section id="ModulesSection">
     <Title url="/img/modulos-utilizados.png" />
-    <div class="container-fluid">
+    <div class="container my-5">
       <div class="row row-cols-3 g-5 d-flex justify-content-center">
         <ModuleCard
           v-for="module in modules"

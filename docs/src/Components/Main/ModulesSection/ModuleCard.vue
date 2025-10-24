@@ -11,15 +11,15 @@ const { id, title, iconUrl, description } = defineProps({
   <button
     type="button"
     :id="id"
-    class="card mx-3 col-3 shadow border-dark rounded-5"
+    class="card mx-3 col-2 shadow border-dark rounded-5"
     data-bs-toggle="modal"
     :data-bs-target="'#' + id + 'Modal'"
   >
-    <div class="card-body">
-      <div class="row h3">
-        <img class="col-1 img-fluid" :src="iconUrl" :alt="id + ' icon'" />
-        {{ title }}
-      </div>
+    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+        <img class="img-fluid" :src="iconUrl" :alt="id + ' icon'" />
+        <p class="lead fw-bold">
+          {{ title }}
+        </p>
     </div>
   </button>
 
