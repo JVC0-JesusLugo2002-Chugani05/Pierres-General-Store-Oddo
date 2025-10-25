@@ -5,7 +5,7 @@ import Figure from './Figure.vue'
 <template>
   <div class="card-body fs-5 text-dark p-5">
     <Figure
-      imgUrl="/img/modules-modals/compras/resumen.png"
+      imgUrl="compras/resumen.png"
       description="Gestor de solicitudes de presupuesto"
     />
     <p>
@@ -14,11 +14,11 @@ import Figure from './Figure.vue'
       acuerdos personalizables y crea facturas de proveedor con mucha facilidad.
     </p>
     <Figure
-      imgUrl="/img/modules-modals/compras/proveedores.png"
+      imgUrl="compras/proveedores.png"
       description="Listado de proveedores"
     />
     <Figure
-      imgUrl="/img/modules-modals/compras/solicitud-presupuesto.png"
+      imgUrl="compras/solicitud-presupuesto.png"
       description="Detalles de una solicitud de presupuesto"
     />
   </div>

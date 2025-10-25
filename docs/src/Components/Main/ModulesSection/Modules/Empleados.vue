@@ -5,7 +5,7 @@ import Figure from './Figure.vue'
 <template>
   <div class="card-body fs-5 text-dark p-5">
     <Figure
-      imgUrl="/img/modules-modals/empleados/vista-general.png"
+      imgUrl="empleados/vista-general.png"
       description="Vista general de empleados"
     />
     <p>
@@ -16,11 +16,11 @@ import Figure from './Figure.vue'
       ausencia.
     </p>
     <Figure
-      imgUrl="/img/modules-modals/empleados/departamentos.png"
+      imgUrl="empleados/departamentos.png"
       description="Organigrama de departamentos"
     />
     <Figure
-      imgUrl="/img/modules-modals/empleados/detalles-empleado.png"
+      imgUrl="empleados/detalles-empleado.png"
       description="Detalles de un empleado"
     />
   </div>
