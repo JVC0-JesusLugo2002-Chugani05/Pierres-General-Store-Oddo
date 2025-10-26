@@ -8,7 +8,7 @@ const { imgUrl, description } = defineProps({
 <template>
   <div class="row my-5 d-flex flex-column align-items-center">
     <img
-      :src="'/img/modules-modals/' + imgUrl"
+      :src="'img/modules-modals/' + imgUrl"
       :alt="description"
       class="img-fluid figure-img col-10"
     />

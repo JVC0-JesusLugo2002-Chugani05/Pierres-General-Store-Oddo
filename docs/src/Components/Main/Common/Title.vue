@@ -8,7 +8,7 @@ const { filename } = defineProps({
 
 <template>
   <div class="title-container container pt-5">
-    <img :src="'/img/titles/' + filename" class="title" />
+    <img :src="'img/titles/' + filename" class="title" />
   </div>
 </template>
 

@@ -6,47 +6,47 @@ const modules = [
   {
     id: 'facturacion',
     title: 'Facturación y contabilidad',
-    iconUrl: '/img/modules-icons/facturacion.svg',
+    iconUrl: 'img/modules-icons/facturacion.svg',
   },
   {
     id: 'empleados',
     title: 'Empleados',
-    iconUrl: '/img/modules-icons/empleados.svg',
+    iconUrl: 'img/modules-icons/empleados.svg',
   },
   {
     id: 'compras',
     title: 'Compras',
-    iconUrl: '/img/modules-icons/compras.svg',
+    iconUrl: 'img/modules-icons/compras.svg',
   },
   {
     id: 'ventas',
     title: 'Ventas',
-    iconUrl: '/img/modules-icons/ventas.svg',
+    iconUrl: 'img/modules-icons/ventas.svg',
   },
   {
     id: 'punto-de-venta',
     title: 'Punto de venta',
-    iconUrl: '/img/modules-icons/punto-de-venta.svg',
+    iconUrl: 'img/modules-icons/punto-de-venta.svg',
   },
   {
     id: 'inventario',
     title: 'Inventario',
-    iconUrl: '/img/modules-icons/inventory.svg',
+    iconUrl: 'img/modules-icons/inventory.svg',
   },
-  {
+  { 
     id: 'crm',
     title: 'CRM',
-    iconUrl: '/img/modules-icons/crm.svg',
+    iconUrl: 'img/modules-icons/crm.svg',
   },
   {
     id: 'calendario',
     title: 'Calendario',
-    iconUrl: '/img/modules-icons/calendario.svg',
+    iconUrl: 'img/modules-icons/calendario.svg',
   },
   {
     id: 'tema-app',
     title: 'Tema backend',
-    iconUrl: '/img/modules-icons/jumino.png',
+    iconUrl: 'img/modules-icons/jumino.png',
   },
 ]
 </script>
