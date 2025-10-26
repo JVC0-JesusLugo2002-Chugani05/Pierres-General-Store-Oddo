@@ -1,0 +1,18 @@
+<script setup>
+import Figure from './Figure.vue'
+</script>
+
+<template>
+  <div class="card-body fs-5 text-dark p-5">
+    <Figure imgUrl="inventario/vista-general.png" description="Vista general del módulo" />
+    <p>
+      Pierre, gracias al módulo de inventario, puede ver en tiempo real el stock de su tienda y
+      agiliza sus operaciones de forma eficaz, utilizando estrategias de rotación alta para un
+      mercado de cambio rápido como el de la agricultura local, gestionando a su vez los envios
+      entrantes y salientes.
+    </p>
+    <Figure imgUrl="inventario/resumen-salidas.png" description="Resumen de salidas" />
+    <Figure imgUrl="inventario/flujo-de-producto.png" description="Flujo de entrada y salida" />
+    <Figure imgUrl="inventario/reposicion.png" description="Formulario de reposición" />
+  </div>
+</template>
