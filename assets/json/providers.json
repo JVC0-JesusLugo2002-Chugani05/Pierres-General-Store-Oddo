@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "name": "Jesus",
+      "birthday": { "day": 23, "season": "Fall" },
+      "image": "../imgs/customers/Jesus.png"
+    },
+    {
+      "name": "Joseph",
+      "birthday": { "day": 13, "season": "Summer" },
+      "image": "../imgs/customers/Joseph.png"
+    },
+    {
+    "name": "Rashi",
+    "birthday": { "day": 5, "season": "Winter" },
+    "image": "../imgs/customers/Rashi.png"  
+    }
+]
+}
