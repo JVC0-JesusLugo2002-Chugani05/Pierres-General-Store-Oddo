@@ -1,4 +1,9 @@
-odoo/
+.env
 database/
+odoo/
 
+# Addon cache
+__pycache__
 
+# Wsl files
+*:Zone.Identifier
